@@ -9,7 +9,9 @@ const array = [1,2,3];
 const greeting = (name) => {
     const string = 'Hello, ' + name + '!';
     const templateString = `Hello, ${name}!`;
-    console.log(templateString);
 }
 
-greeting('John');
+// default parameters
+const add = (a,b) => console.log(a+b);
+
+add(1,2);
