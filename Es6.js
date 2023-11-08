@@ -3,6 +3,6 @@ let age = 20;
 const name = 'John';
 
 // arrow functions
-const add = (a,b) => console.log(a+b);
+const array = [1,2,3];
 
-add(2,2);
+array.map(n =>console.log(n));
