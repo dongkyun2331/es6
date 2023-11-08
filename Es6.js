@@ -1,8 +1,7 @@
 // const and let
 let age = 20;
+const name = 'John';
 
-console.log(age);
+name = 'Jane';
 
-age = age + 1;
-
-console.log(age);
+console.log(name);
