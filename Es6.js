@@ -8,7 +8,8 @@ const array = [1,2,3];
 // template string
 const greeting = (name) => {
     const string = 'Hello, ' + name + '!';
-    console.log(string);
+    const templateString = `Hello, ${name}!`;
+    console.log(templateString);
 }
 
 greeting('John');
