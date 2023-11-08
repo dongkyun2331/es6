@@ -2,6 +2,9 @@
 let age = 20;
 const name = 'John';
 
-name = 'Jane';
+// arrow functions
+function add(a,b) {
+    console.log(a+b);
+}
 
-console.log(name);
+add(2,2);
