@@ -3,7 +3,7 @@ let age = 20;
 const name = "John";
 
 // arrow functions
-var array = [1, 2, 3];
+// var array = [1, 2, 3];
 
 // template string
 const greeting = (name) => {
@@ -15,9 +15,8 @@ const greeting = (name) => {
 const add = (a = 2, b = 2) => console.log(a + b);
 
 // array destructuring
-var array = [1, 2, 3];
+const array = [1, 2, 3];
 
-const first = array[0];
-const third = array[2];
+const [first, second, third] = array;
 
-console.log(first, third);
+console.log(first, second, third);
