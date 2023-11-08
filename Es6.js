@@ -12,6 +12,6 @@ const greeting = (name) => {
 }
 
 // default parameters
-const add = (a,b) => console.log(a+b);
+const add = (a,b=0) => console.log(a+b);
 
-add(1,2);
+add(2);
