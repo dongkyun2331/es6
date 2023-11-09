@@ -19,4 +19,10 @@ const array = [1, 2, 3];
 
 const [first, second, third] = array;
 
-console.log(first, second, third);
+// object destructuring
+const object = {
+  channelName: "JavaScript Mastery",
+  view: 1500,
+};
+
+console.log(object.channelName);
