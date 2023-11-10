@@ -28,6 +28,6 @@ const object = {
 const { channelName, views } = object;
 
 // rest operator
-const add = (a, b, c) => console.log([a, b, c].reduce((a, b) => a + b, 0));
+const add = (...numbers) => console.log(numbers.reduce((a, b) => a + b, 0));
 
-add(1, 2, 3);
+add(1, 2, 3, 4, 5, 6, 7);
