@@ -25,4 +25,6 @@ const object = {
   view: 1500,
 };
 
-console.log(object.channelName);
+const channelName = object.channelName;
+
+console.log(channelName);
