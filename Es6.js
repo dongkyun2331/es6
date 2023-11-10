@@ -25,7 +25,6 @@ const object = {
   views: 1500,
 };
 
-const channelName = object.channelName;
-const views = object.views;
+const { channelName, views } = object;
 
 console.log(channelName, views);
