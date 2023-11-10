@@ -22,9 +22,10 @@ const [first, second, third] = array;
 // object destructuring
 const object = {
   channelName: "JavaScript Mastery",
-  view: 1500,
+  views: 1500,
 };
 
 const channelName = object.channelName;
+const views = object.views;
 
-console.log(channelName);
+console.log(channelName, views);
