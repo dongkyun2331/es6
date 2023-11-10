@@ -15,9 +15,9 @@ const greeting = (name) => {
 // const add = (a = 2, b = 2) => console.log(a + b);
 
 // array destructuring
-const array = [1, 2, 3];
+// const array = [1, 2, 3];
 
-const [first, second, third] = array;
+// const [first, second, third] = array;
 
 // object destructuring
 const object = {
@@ -30,4 +30,9 @@ const { channelName, views } = object;
 // rest operator
 const add = (...numbers) => console.log(numbers.reduce((a, b) => a + b, 0));
 
-add(1, 2, 3, 4, 5, 6, 7);
+// add(1, 2, 3, 4, 5, 6, 7);
+
+// spread operator
+const array = [1, 2, 3];
+
+console.log(array[0], array[1], array[2]);
