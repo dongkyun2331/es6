@@ -35,4 +35,4 @@ const add = (...numbers) => console.log(numbers.reduce((a, b) => a + b, 0));
 // spread operator
 const array = [1, 2, 3];
 
-console.log(array[0], array[1], array[2]);
+console.log(...array);
